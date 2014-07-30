@@ -6,7 +6,8 @@ require([
     'angular-ui-router',
     'ui-bootstrap-tpls',
     'bootstrap',
-    'home/home'
+    'home/home',
+    'foo/foo'
 ], function(angular) {
     'use strict';
 
@@ -19,7 +20,8 @@ require([
             'ngResource',
             'ui.bootstrap',
             'ngAnimate',
-            'homeModule'
+            'homeModule',
+            'fooModule'
         ]).config(['$urlRouterProvider', '$provide', function($urlRouterProvider, $provide) {
             $urlRouterProvider.otherwise('/');
 
