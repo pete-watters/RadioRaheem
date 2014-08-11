@@ -38,7 +38,7 @@ body {
 .row.marketing{
     height:40%;
     background: url("../images/stripe_background.jpg") no-repeat center center fixed;
-    background-size: cover; /* important to make background resize to match container*/
+    background-size: contain; /* important to make background resize to match container*/
 }
 
 .marketing div{
@@ -54,9 +54,6 @@ body {
     bottom: 0;
     width: 100%;
 }
-
-
-
 
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
