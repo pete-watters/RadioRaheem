@@ -12,11 +12,55 @@ $icon-font-path: '../bower_components/sass-bootstrap/fonts/';
 }
 /* remove this part below and start develop */
 
+html, body{
+    height:100%; /* make height stretch*/
+    margin: 0;
+    padding:0;
+}
+
+body > div , body > div > div{
+    height:100%; /* make height stretch for containers */
+}
+
 body {
     padding-top: 20px;
     padding-bottom: 20px;
+    background: url("../images/rasta_boombox_background.jpg");
 }
+
+.header, .footer{
+    height: 5%;
+}
+
+.jumbotron{
+    height: 35%;
+}
+.row.marketing{
+    height:40%;
+    background: url("../images/stripe_background.jpg") no-repeat center center fixed;
+    background-size: cover; /* important to make background resize to match container*/
+}
+
+.marketing div{
+    background: black;
+    display: inline-block;
+    height: 90%;
+    width: 40%;
+    margin: 5%;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
+
 
 .header,
 .marketing,
@@ -52,7 +96,8 @@ body {
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
-    background-image: "../images/rasta_boombox_background.jpg";
+    background: url("../images/rasta_wallpaper_by_tradermichael-d5vyhyi.png");
+    background-size: contain; /* important to make background resize to match container*/
 }
 .jumbotron .btn {
     font-size: 21px;
@@ -66,6 +111,9 @@ body {
 .marketing p + h4 {
     margin-top: 28px;
 }
+
+
+
 /* Responsive: Portrait tablets and up */
 
 @media screen and (min-width: 768px) {
