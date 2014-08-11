@@ -10183,8 +10183,8 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000338}}
 .row.marketing {
   height: 40%;
-  background: url("../images/stripe_background.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background: url("../images/stripe_background.jpg");
+  background-size: contain;
   /* important to make background resize to match container*/
 }
 
@@ -10201,11 +10201,11 @@ body {
 .footer {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 36%;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000364}}
 .header,
 .marketing,
 .footer {
@@ -10214,13 +10214,14 @@ body {
 }
 
 /* Custom page header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000370}}
 .header {
   border-bottom: 1px solid #e5e5e5;
+  background: black;
 }
 
 /* Make the masthead heading the same height as the navigation */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000376}}
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
@@ -10229,20 +10230,20 @@ body {
 }
 
 /* Custom page footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000384}}
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000389}}
 .container-narrow > hr {
   margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\0000394}}
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
@@ -10251,32 +10252,32 @@ body {
   /* important to make background resize to match container*/
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003100}}
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
 
 /* Supporting marketing content */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003106}}
 .marketing {
   margin: 40px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003109}}
 .marketing p + h4 {
   margin-top: 28px;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003118}}
   .container {
     max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003124}}
   .header,
   .marketing,
   .footer {
@@ -10285,13 +10286,13 @@ body {
   }
 
   /* Space out the masthead */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003129}}
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/RadioRaheem\/RadioRaheem\/app\/styles\/style\.scss}line{font-family:\00003133}}
   .jumbotron {
     border-bottom: 0;
   }

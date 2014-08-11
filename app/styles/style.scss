@@ -37,7 +37,7 @@ body {
 }
 .row.marketing{
     height:40%;
-    background: url("../images/stripe_background.jpg") no-repeat center center fixed;
+    background: url("../images/stripe_background.jpg");
     background-size: contain; /* important to make background resize to match container*/
 }
 
@@ -52,7 +52,7 @@ body {
 .footer{
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 36%;
 }
 
 
@@ -69,6 +69,7 @@ body {
 
 .header {
     border-bottom: 1px solid #e5e5e5;
+    background: black;
 }
 /* Make the masthead heading the same height as the navigation */
 
